@@ -16,3 +16,7 @@ This repo only holds Oranuss files. Everything else is installed by `install.sh`
 | skills CLI | https://github.com/vercel-labs/skills | `npx skills` |
 | Noto Kufi Arabic (free font, OFL) | https://github.com/google/fonts/tree/main/ofl/notokufiarabic | `curl` |
 | Graphik Arabic (paid font) | https://commercialtype.com | not included: add your licensed files to `workspace/brand/fonts/graphik-arabic/` |
+| Git, FFmpeg (full), Node.js LTS, Python 3.12 (Windows) | https://learn.microsoft.com/windows/package-manager/winget | `winget install` |
+| whisper.cpp for Windows | https://github.com/ggml-org/whisper.cpp/releases | `whisper-bin-x64.zip` |
+| OpenCV (face tracking on Windows) | https://pypi.org/project/opencv-python-headless/ | `pip install "opencv-python-headless<5"` |
+| YuNet face model | https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx | `curl` (230 KB) |

@@ -1,8 +1,7 @@
 #!/bin/bash
 # Oranuss Academy AI Editing: installer (macOS, Apple Silicon). Developed by Mehdi ORANUSS | Powered by Claude
-# usage:  gh api repos/meeehdy832/oranuss-academy-ai-editing/contents/install.sh -H "Accept: application/vnd.github.raw" > /tmp/oranuss-install.sh
-#         bash /tmp/oranuss-install.sh [target] [--tools] [--model] [--earshot]
-# The repo is PRIVATE: the GitHub account signed in with `gh auth login` must be invited to it.
+# usage:  KIT_TOKEN=<read-only key> bash install.sh [target] [--tools] [--model] [--earshot]
+# The repo is PRIVATE: files come through the GitHub API with a read-only key (Contents: read, this repo only).
 #   target     editing folder (default ~/Documents/oranuss-academy-ai-editing)
 #   --tools    install ffmpeg-full, whisper-cpp, node with Homebrew (Homebrew must already exist)
 #   --model    download the whisper large-v3 model (2.9 GB, Hugging Face)
@@ -20,9 +19,12 @@ echo "== 1/7 Oranuss files"
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || true)"
 if [ -n "$HERE" ] && [ -d "$HERE/workspace" ] && [ -d "$HERE/skills" ]; then SRC="$HERE"; else
   TMP="$(mktemp -d)"
-  # private repo: needs the GitHub CLI signed in with an account that was invited to the repo
-  command -v gh >/dev/null && gh auth status >/dev/null 2>&1 || { echo "STOP: run  brew install gh  then  gh auth login --web  (account invited to $REPO)"; exit 3; }
-  gh api "repos/$REPO/tarball/main" > "$TMP/repo.tgz" || { echo "STOP: no access to $REPO. Ask Oranuss Academy for an invite, accept it on github.com, then run again."; exit 4; }
+  # private repo: read-only key given in the install text (KIT_TOKEN), else a signed-in GitHub CLI
+  if [ -n "$KIT_TOKEN" ]; then
+    curl -fsSL -H "Authorization: Bearer $KIT_TOKEN" -H "Accept: application/vnd.github+json" \
+      "https://api.github.com/repos/$REPO/tarball/main" -o "$TMP/repo.tgz" || { echo "STOP: the access key was refused (expired or wrong). Ask Oranuss Academy for a new install text."; exit 4; }
+  elif command -v gh >/dev/null && gh auth status >/dev/null 2>&1; then gh api "repos/$REPO/tarball/main" > "$TMP/repo.tgz"
+  else echo "STOP: no access key. Run with  KIT_TOKEN=<key> bash install.sh"; exit 3; fi
   tar -xzf "$TMP/repo.tgz" -C "$TMP" && rm "$TMP/repo.tgz"
   SRC="$(ls -d "$TMP"/*/ | head -1)"; SRC="${SRC%/}"; fi
 mkdir -p "$TARGET" "$HOME/.claude/skills"
@@ -36,7 +38,7 @@ ok "workspace -> $TARGET ($(ls "$TARGET/.claude/skills" | wc -l | tr -d ' ') pro
 echo "== 2/7 Homebrew tools"
 if [ "$TOOLS" = 1 ]; then
   command -v brew >/dev/null || { no "Homebrew missing: install it from https://brew.sh, then run again"; exit 2; }
-  brew install ffmpeg-full whisper-cpp node
+  brew install ffmpeg-full whisper-cpp node python@3.12
 fi
 [ -x /opt/homebrew/opt/ffmpeg-full/bin/ffmpeg ] && ok ffmpeg-full || no "ffmpeg-full (brew install ffmpeg-full)"
 command -v whisper-cli >/dev/null && ok whisper-cpp || no "whisper-cpp (brew install whisper-cpp)"
@@ -64,6 +66,14 @@ if command -v swiftc >/dev/null; then mkdir -p "$TARGET/project/tools/ves/bin"
 else no "Xcode tools missing: run  xcode-select --install"; fi
 command -v npx >/dev/null && (cd "$TARGET" && npx -y hyperframes@0.9.9 doctor >/dev/null 2>&1) && ok "HyperFrames (npm: hyperframes)" || no "HyperFrames: run  npx hyperframes@0.9.9 doctor"
 
+PYV="$TARGET/project/.venv"
+PY312=$(command -v python3.12 || command -v python3.13 || command -v python3)
+if [ ! -x "$PYV/bin/python" ]; then "$PY312" -m venv "$PYV" && "$PYV/bin/pip" install -q "opencv-python-headless<5" >/dev/null 2>&1 && ok "Python + OpenCV (project/.venv)" || no "Python venv (optional)"; fi
+
+YN="$TARGET/project/models/face_detection_yunet_2023mar.onnx"; mkdir -p "$(dirname "$YN")"
+[ -f "$YN" ] || curl -fsSL -o "$YN" "https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx" || true
+[ -f "$YN" ] && ok "YuNet face model (opencv_zoo)" || no "YuNet face model"
+
 echo "== 6/7 Transcription model"
 M="$TARGET/project/models/ggml-large-v3.bin"; mkdir -p "$(dirname "$M")"
 [ "$MODEL" = 1 ] && [ ! -f "$M" ] && curl -L --fail -o "$M.part" https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin && mv "$M.part" "$M"
@@ -72,8 +82,8 @@ M="$TARGET/project/models/ggml-large-v3.bin"; mkdir -p "$(dirname "$M")"
 echo "== 7/7 earshot (optional)"
 E="$TARGET/tools/earshot"
 if [ "$EARSHOT" = 1 ] && [ ! -x "$E/.venv/bin/earshot" ]; then
-  PY=$(command -v python3.12 || command -v python3.11 || command -v python3)
-  "$PY" -m venv "$E/.venv" && "$E/.venv/bin/pip" install -q "git+https://github.com/Leonxlnx/earshot" && ok earshot || no "earshot (optional)"
+  PY=$(command -v python3.12 || command -v python3.13 || command -v python3)
+  "$PY" -m venv "$E/.venv" && "$E/.venv/bin/pip" install -q "https://github.com/Leonxlnx/earshot/archive/refs/heads/main.zip" && ok earshot || no "earshot (optional)"
 else [ -x "$E/.venv/bin/earshot" ] && ok earshot || echo "   (skipped)"; fi
 
 echo "DONE. Open this folder in Claude Code: $TARGET"

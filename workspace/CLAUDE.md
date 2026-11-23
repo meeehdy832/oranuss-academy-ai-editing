@@ -9,3 +9,7 @@ Read `README.md` (folder map) and `brand/BRAND_CONFIG.md` before editing.
 - Never invent numbers or claims; figures come from the speech or the user.
 - Final resolution = source resolution (no upscaling footage). Audio −14 LUFS.
 - Ask before big installs (models, toolchains) and before downloading other people's videos.
+
+## Mac or Windows
+- Mac: tools from Homebrew (`/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg`, `whisper-cli`); face tracking with `project/tools/ves/bin/face-track` (macOS Vision).
+- Windows: `ffmpeg` and `whisper-cli` are on PATH (the installer rewrote the Mac paths in the scripts); face tracking with `project/.venv/Scripts/python project/tools/face_track.py <video> <out.json> 0.25`. Avenir Next is Mac-only: use Noto Kufi Arabic / Segoe UI on Windows.
