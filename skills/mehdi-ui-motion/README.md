@@ -1,4 +1,4 @@
-# Zahran UI Motion: a Claude skill for premium UI motion reels
+# Mehdi UI Motion: a Claude skill for premium UI motion reels
 
 A free [Claude skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that turns Claude into a
 motion designer for **Apple-style UI / app reels**: product promos, app concepts and AI / SaaS launch videos, built in
@@ -7,7 +7,7 @@ motion designer for **Apple-style UI / app reels**: product promos, app concepts
 You give Claude a brief or a voice-over. It writes a beat sheet, builds the video with a ready-made motion kit, renders
 it with real motion blur, and checks the result with measurement scripts.
 
-Made by **Yahia Zahran (Zahran Motion)**.
+By **Mehdi ORANUSS (Oranuss Academy)**. Based on "Zahran UI Motion" by Yahia Zahran, MIT licence (see `LICENSE`).
 
 ## What's inside
 
@@ -22,9 +22,9 @@ Made by **Yahia Zahran (Zahran Motion)**.
 
 ## Install
 
-**Claude app (claude.ai / desktop):** download `zahran-ui-motion.zip`, then upload it in Settings under Skills (skills must be enabled for your account).
+**Claude app (claude.ai / desktop):** download `mehdi-ui-motion.zip`, then upload it in Settings under Skills (skills must be enabled for your account).
 
-**Claude Code:** put the `zahran-ui-motion` folder in `~/.claude/skills/` (all projects) or `<project>/.claude/skills/`.
+**Claude Code:** put the `mehdi-ui-motion` folder in `~/.claude/skills/` (all projects) or `<project>/.claude/skills/`.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ Made by **Yahia Zahran (Zahran Motion)**.
 - Python 3.9+ (optional, for the QA scripts): `pip install -r scripts/requirements.txt`
 - Works on Windows, macOS and Linux
 
-You don't need a Remotion project first: ask Claude to *"set up the zahran-ui-motion skill"* and it follows
+You don't need a Remotion project first: ask Claude to *"set up the mehdi-ui-motion skill"* and it follows
 `references/11-setup.md` (create the project, copy the kit, render the gold reel as a test).
 Claude needs to be able to run commands for this (Claude Code, or the desktop app with a connected folder).
 
@@ -40,7 +40,7 @@ Claude needs to be able to run commands for this (Claude Code, or the desktop ap
 
 > Make a 15 s UI promo for a habit-tracker app called Loop. Copy: "Your habits. / On autopilot. / Meet Loop."
 
-> Here's my voice-over (attached). Make a 1:1 app reel in the Zahran UI Motion style.
+> Here's my voice-over (attached). Make a 1:1 app reel in the Mehdi UI Motion style.
 
 > Review this render's motion and transitions and fix what's off.
 

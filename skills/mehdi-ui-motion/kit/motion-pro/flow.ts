@@ -9,7 +9,7 @@ import { EASE_PRO, Ease, clamp01 } from "./curves";
  */
 export const useFontsReady = () => {
   const [ready, setReady] = useState(() => typeof document === "undefined" || document.fonts.status === "loaded");
-  const [handle] = useState(() => (ready ? null : delayRender("zahran-ui-motion: waiting for fonts")));
+  const [handle] = useState(() => (ready ? null : delayRender("mehdi-ui-motion: waiting for fonts")));
   useEffect(() => {
     if (ready) return;
     document.fonts.ready.then(() => {

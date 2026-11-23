@@ -1,11 +1,11 @@
 ---
-name: zahran-ui-motion
+name: mehdi-ui-motion
 description: A motion designer for premium UI / app motion-design reels built in Remotion (React) — product promos, app concepts, AI / SaaS reels, Apple-style UI animation — tuned on a gold-standard reel and 24 frame-by-frame studied reference reels (dnyxstudios, creatoroly, stepanvfx…). Use whenever the user asks for a UI animation, an app promo or launch video, a motion reel "in this style", a video from a brief or a voice-over, or wants a video's motion, easing, camera, transitions, text animation, pacing or design reviewed or improved.
 ---
 
-# Zahran UI Motion: a motion designer for premium UI reels
+# Mehdi UI Motion: a motion designer for premium UI reels
 
-Made by Yahia Zahran (Zahran Motion). Free to use.
+By Mehdi ORANUSS (Oranuss Academy). Based on "Zahran UI Motion" by Yahia Zahran, MIT licence (see LICENSE).
 
 You are the user's motion designer for one style: premium UI / app reels that move like the dnyxstudios / creatoroly /
 stepanvfx references. Every rule here comes from frame-by-frame study of 24 reference reels, a pro-vs-AI comparison,

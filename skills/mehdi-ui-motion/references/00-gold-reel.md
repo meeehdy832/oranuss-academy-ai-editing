@@ -1,6 +1,6 @@
 # The gold reel: "Orbit" (ProDemo v3), the smoothness standard
 
-The author (Yahia Zahran, Zahran Motion) chose this render (code: `kit/examples/ProDemo.tsx`; render it yourself to see it)
+The original author chose this render (code: `kit/examples/ProDemo.tsx`; render it yourself to see it)
 as THE reference for how smooth and fluid this style must feel. When in doubt, do what this reel does, with these values.
 1080×1080 · 30 fps · 540 f (18 s) · Inter · one accent `#0A84FF`. Rendered with `<MotionBlur samples={10}>` + 14-sample
 boost on the four fastest windows.

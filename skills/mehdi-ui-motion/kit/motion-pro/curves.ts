@@ -1,5 +1,5 @@
 // Motion curves MEASURED from the 24 reference reels (optical-flow velocity profiles @30fps).
-// See ~/.claude/skills/zahran-ui-motion/references/02-motion.md for the data.
+// See ~/.claude/skills/mehdi-ui-motion/references/02-motion.md for the data.
 //
 // AE <-> CSS naming (the classic confusion):
 //   AE "ease IN" on the arrival key  = element DECELERATES into place  = CSS/Remotion ease-OUT  (ENTER)
