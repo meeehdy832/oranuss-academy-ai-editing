@@ -1,0 +1,81 @@
+
+      @font-face { font-family: "Graphik Arabic"; src: url("assets/fonts/GraphikArabic-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; }
+      @font-face { font-family: "Graphik Arabic"; src: url("assets/fonts/GraphikArabic-Semibold.woff2") format("woff2"); font-weight: 600; font-style: normal; }
+      @font-face { font-family: "Graphik Arabic"; src: url("assets/fonts/GraphikArabic-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; }
+      @font-face { font-family: "Graphik Arabic"; src: url("assets/fonts/GraphikArabic-Black.woff2") format("woff2"); font-weight: 900; font-style: normal; }
+      /* intro-ai additions on top of the purple-3d-glass system */
+      .cam { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+      .camz { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+      #aroll, #rawclip { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; object-fit: cover; }
+      .halo { position: absolute; left: 560px; top: 40px; width: 900px; height: 900px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.85) 0%, rgba(233,224,255,.55) 38%, rgba(233,224,255,0) 70%); }
+      .floor { position: absolute; left: 0; right: 0; bottom: 0; height: 320px; background: linear-gradient(180deg, rgba(196,181,253,0), rgba(167,139,250,.35)); }
+      .full-bg { position: absolute; inset: 0; }
+      .full-bg div { position: absolute; }
+
+      .raw-badge { display: flex; align-items: center; justify-content: center; gap: 14px; background: rgba(20,14,40,.78); color: #fff; font-weight: 800; font-size: 34px; letter-spacing: .12em; }
+      .raw-badge .rec { width: 18px; height: 18px; border-radius: 50%; background: #ef4444; box-shadow: 0 0 12px #ef4444; }
+      .timecode { color: #fff; font-family: "JetBrains Mono", monospace; font-weight: 700; font-size: 34px; text-align: center; line-height: 60px; background: rgba(20,14,40,.6); border-radius: 12px; }
+      .raw-frame { border: 3px solid rgba(255,255,255,.55); border-radius: 18px; }
+      .after-badge { display: flex; align-items: center; justify-content: center; gap: 14px; color: #fff; font-weight: 800; font-size: 32px; background: radial-gradient(130% 130% at 25% 15%, #e2d8ff 0%, #8b5cf6 40%, #4c1d95 100%); box-shadow: 0 20px 40px -12px rgba(91,33,182,.6); }
+
+      .kword { color: var(--ink); font-weight: 800; line-height: 1.2; letter-spacing: -0.01em; white-space: nowrap; text-shadow: 0 6px 30px rgba(255,255,255,.9), 0 2px 0 rgba(255,255,255,.6); }
+      .kword span { display: inline-block; }
+      .kword .grad { text-shadow: none; filter: drop-shadow(0 8px 20px rgba(255,255,255,.85)) drop-shadow(0 4px 10px rgba(91,33,182,.25)); }
+      .wordmark-2 { font-size: 104px; font-weight: 800; line-height: 1.12; color: var(--ink); letter-spacing: .04em; text-align: left; }
+
+      .tl-panel { overflow: hidden; }
+      .tl-head { left: 0; right: 0; top: 0; height: 74px; display: flex; align-items: center; gap: 12px; padding-left: 28px; border-bottom: 2px solid rgba(167,139,250,.25); }
+      .tl-head b { margin-left: 18px; font-weight: 800; font-size: 28px; color: var(--ink); letter-spacing: .06em; }
+      .tl-dot { width: 16px; height: 16px; border-radius: 50%; background: #c4b5fd; display: inline-block; }
+      .tl-label { left: 26px; width: 60px; font-weight: 700; font-size: 30px; color: #7c3aed; }
+      .clipseg { height: 88px; border-radius: 16px; background: radial-gradient(130% 130% at 25% 15%, #e2d8ff 0%, #a78bfa 30%, #7c3aed 70%, #5b21b6 100%); box-shadow: 0 12px 24px -12px rgba(91,33,182,.6), inset 0 3px 6px rgba(255,255,255,.5); transform-origin: 0 50%; overflow: hidden; }
+      .cs-th { left: 8px; top: 8px; width: 60px; bottom: 8px; border-radius: 10px; background: linear-gradient(135deg, #ffd9c2, #ffc9d2); }
+      .kf { width: 30px; height: 30px; }
+      .kf i { position: absolute; inset: 0; border-radius: 6px; background: radial-gradient(130% 130% at 25% 15%, #fff1c7, #fbbf24 50%, #d97706); box-shadow: 0 6px 12px -4px rgba(217,119,6,.6); transform: rotate(45deg); }
+      .wave { display: flex; align-items: center; gap: 6px; transform-origin: 50% 50%; }
+      .wave i { position: relative; display: block; width: 10px; border-radius: 5px; background: linear-gradient(180deg, #34d399, #059669); }
+      .capseg { height: 40px; border-radius: 12px; background: rgba(255,255,255,.9); border: 2px solid #c4b5fd; transform-origin: 0 50%; }
+      .blade { left: 636px; top: 196px; width: 6px; height: 136px; border-radius: 3px; background: #ef4444; box-shadow: 0 0 14px rgba(239,68,68,.8); }
+      .playhead { width: 4px; border-radius: 2px; background: #ef4444; box-shadow: 0 0 12px rgba(239,68,68,.8); }
+
+      .logo-slot { position: absolute; inset: 40px; border: 3px dashed rgba(124,58,237,.6); border-radius: 40px; display: flex; align-items: center; justify-content: center; color: #6d28d9; font-weight: 700; font-size: 34px; }
+      .logo-img { position: absolute; left: 15%; top: 15%; width: 70%; height: 70%; object-fit: contain; }
+      .orbit-ring { border: 3px solid rgba(139,92,246,.35); box-shadow: 0 0 30px rgba(167,139,250,.35); }
+
+      .notif { }
+      .notif-new { right: 26px; top: 50px; padding: 4px 14px; border-radius: 14px; background: #34d399; color: #fff; font-weight: 800; font-size: 28px; }
+      .row-t { left: 146px; top: 0; bottom: 0; display: flex; align-items: center; font-weight: 700; font-size: 40px; color: var(--ink); white-space: nowrap; }
+      .wall { left: 0; top: 0; width: 1920px; height: 1080px; transform-style: preserve-3d; transform-origin: 960px 540px; }
+      .badge-play { margin: 0; }
+      .feed { left: 0; right: 0; top: 0; }
+      .feed-card { left: 16px; right: 16px; height: 230px; border-radius: 26px; background: #fff; box-shadow: 0 10px 20px -14px rgba(76,29,149,.4); }
+      .heart-pop { border-radius: 50%; display: flex; align-items: center; justify-content: center; background: radial-gradient(130% 130% at 25% 15%, #ffe4ec, #fb7185 45%, #e11d48); box-shadow: 0 12px 24px -8px rgba(225,29,72,.5); }
+
+      .ep-row { left: 0; top: 330px; width: 3700px; height: 420px; }
+      .ep { width: 460px; height: 400px; border-radius: 40px; }
+      .ep-th { left: 22px; right: 22px; top: 22px; height: 260px; border-radius: 28px; overflow: hidden; }
+      .tplay.big { width: 96px; height: 96px; margin: -48px 0 0 -48px; }
+      .ep-badge { left: 28px; bottom: 74px; padding: 4px 16px; border-radius: 16px; background: #1b1240; color: #fff; font-weight: 800; font-size: 30px; }
+
+      .cal-head { left: 30px; top: 30px; display: flex; align-items: center; gap: 16px; }
+      .cal-head b { font-weight: 800; font-size: 34px; color: var(--ink); white-space: nowrap; }
+      .cal-dow { top: 100px; width: 80px; text-align: center; font-weight: 700; font-size: 30px; color: #7e76aa; }
+      .cal-cell { width: 80px; height: 72px; border-radius: 18px; background: rgba(255,255,255,.7); color: var(--ink); font-weight: 600; font-size: 28px; text-align: center; line-height: 72px; }
+      .cal-cell.fri { color: #6d28d9; font-weight: 800; }
+      .qbubble { border-radius: 50% 50% 50% 12px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 54px; background: radial-gradient(130% 130% at 25% 15%, #e2d8ff 0%, #8b5cf6 40%, #4c1d95 100%); box-shadow: 0 16px 30px -10px rgba(91,33,182,.6), inset 0 4px 8px rgba(255,255,255,.5); }
+
+      /* frames for the real footage: split card (60-900 px) and the corner circle (face at 270,800, r 139) */
+      .cardframe { position: absolute; left: 50px; top: 40px; width: 860px; height: 1000px; border-radius: 52px; background: rgba(255,255,255,.6); border: 2px solid #fff; box-shadow: 0 50px 90px -30px rgba(76,29,149,.5), 0 0 0 10px rgba(167,139,250,.18); }
+      .ring-frame { position: absolute; left: 123px; top: 653px; width: 294px; height: 294px; border-radius: 50%; border: 7px solid #fff; box-shadow: 0 0 0 10px rgba(139,92,246,.35), 0 30px 60px -16px rgba(76,29,149,.6); }
+
+      /* Arabic (Graphik Arabic), mixed with Latin tech words in Poppins */
+      .ar { font-family: "Graphik Arabic", "Poppins", sans-serif; direction: rtl; letter-spacing: 0; }
+      .kword.ar { font-weight: 700; line-height: 1.4; }
+      .title.ar { font-weight: 700; line-height: 1.4; }
+      .chip.ar { padding-left: 0; padding-right: 8px; }
+      .chip.ar .chip-t { font-weight: 600; }
+      .after-badge .ar { font-weight: 700; }
+      .cal-head b.ar { font-weight: 700; }
+      .cal-dow { font-family: "Graphik Arabic", "Poppins", sans-serif; }
+      .logo-wm img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: contain; }
+      .row-t.ar { left: 40px; right: 146px; font-size: 44px; }

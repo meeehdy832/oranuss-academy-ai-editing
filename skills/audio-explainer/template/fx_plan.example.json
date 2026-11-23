@@ -1,0 +1,1034 @@
+{
+ "1": [
+  {
+   "k": "flow",
+   "pos": "right",
+   "cue": "رسالة",
+   "icon": "e_mail",
+   "a": {
+    "icon": "busts_in_silhouette",
+    "label": "المتدربين"
+   },
+   "b": {
+    "icon": "e_mail",
+    "label": "Oranuss"
+   },
+   "label": "كل نهار"
+  }
+ ],
+ "3": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "كنجاوبو فـ",
+   "items": [
+    {
+     "label": "الحصص",
+     "icon": "graduation_cap",
+     "cue": "الحصاص"
+    },
+    {
+     "label": "الأوديوهات",
+     "icon": "mobile_phone",
+     "cue": "أضيوات"
+    }
+   ]
+  }
+ ],
+ "4": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "الموضوع",
+   "items": [
+    {
+     "label": "الحرية المالية",
+     "icon": "unlocked",
+     "cue": "حرية"
+    }
+   ]
+  }
+ ],
+ "5": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "علاش كيتحبس؟",
+   "items": [
+    {
+     "label": "ما كاينش خطوات",
+     "icon": "red_question_mark",
+     "cue": "خطوات"
+    },
+    {
+     "label": "ما عارفش منين يبدا",
+     "icon": "thinking_face",
+     "cue": "تذهب"
+    }
+   ]
+  }
+ ],
+ "7": [
+  {
+   "k": "globe",
+   "pos": "left",
+   "items": [
+    {
+     "label": "Singapour ✗",
+     "icon": "cross_mark",
+     "cue": "سنجابور",
+     "x": 80,
+     "y": 50
+    },
+    {
+     "label": "Hind ✗",
+     "icon": "cross_mark",
+     "cue": "الهند",
+     "x": -40,
+     "y": -30
+    }
+   ]
+  }
+ ],
+ "8": [
+  {
+   "k": "stamp",
+   "cue": "ممنوع",
+   "text": "ممنوع"
+  }
+ ],
+ "9": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "اللعبة عندها قوانين",
+   "items": [
+    {
+     "label": "تخدم مرتاح",
+     "icon": "smiling_face_with_sunglasses",
+     "cue": "مرتاح"
+    },
+    {
+     "label": "طريق كتمشي مزيان",
+     "icon": "check_mark_button",
+     "cue": "مزيان"
+    }
+   ]
+  }
+ ],
+ "10": [
+  {
+   "k": "chips",
+   "pos": "left",
+   "title": "الخطة",
+   "items": [
+    {
+     "label": "جربتها أنا",
+     "icon": "check_mark_button",
+     "cue": "أعملت"
+    },
+    {
+     "label": "ماشي من كتاب",
+     "icon": "cross_mark",
+     "cue": "كتاب"
+    },
+    {
+     "label": "نطبقوها",
+     "icon": "hammer_and_wrench",
+     "cue": "ونطبقها"
+    }
+   ]
+  }
+ ],
+ "11": [
+  {
+   "k": "chips",
+   "pos": "full",
+   "items": [
+    {
+     "label": "تقرا",
+     "icon": "books",
+     "cue": "تقرأ"
+    },
+    {
+     "label": "تطبق",
+     "icon": "hammer_and_wrench",
+     "cue": "تسوّل"
+    },
+    {
+     "label": "تخسر الفلوس",
+     "icon": "money_with_wings",
+     "cue": "تخسل"
+    },
+    {
+     "label": "تنوض",
+     "icon": "person_running",
+     "cue": "تنوض"
+    }
+   ]
+  }
+ ],
+ "12": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "هاد الأوديو",
+   "items": [
+    {
+     "label": "كيختصر عليك الطريق",
+     "icon": "rocket",
+     "cue": "سيتختصر"
+    },
+    {
+     "label": "الحرية المالية ماشي…",
+     "icon": "red_question_mark",
+     "cue": "رمشي"
+    }
+   ]
+  }
+ ],
+ "13": [
+  {
+   "k": "stamp",
+   "cue": "طيارة",
+   "text": "ماشي الطيارة"
+  }
+ ],
+ "16": [
+  {
+   "k": "clock",
+   "pos": "full",
+   "a": {
+    "label": "الوقت · الجهد · الطاقة"
+   },
+   "b": {
+    "label": "فلوس"
+   },
+   "at": 0.5
+  }
+ ],
+ "17": [
+  {
+   "k": "flow",
+   "pos": "right",
+   "cue": "الخدمة",
+   "a": {
+    "icon": "alarm_clock",
+    "label": "وقتك"
+   },
+   "b": {
+    "icon": "money_bag",
+    "label": "المبلغ"
+   },
+   "label": "Active Income"
+  }
+ ],
+ "19": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "Active Income",
+   "items": [
+    {
+     "label": "طبيب",
+     "icon": "briefcase",
+     "cue": "طبيب"
+    },
+    {
+     "label": "محامي",
+     "icon": "balance_scale",
+     "cue": "محامي"
+    },
+    {
+     "label": "Business owner",
+     "icon": "factory",
+     "cue": "business"
+    }
+   ]
+  }
+ ],
+ "20": [
+  {
+   "k": "flow",
+   "pos": "right",
+   "cue": "تحط",
+   "a": {
+    "icon": "money_bag",
+    "label": "فلوسك"
+   },
+   "b": {
+    "icon": "factory",
+    "label": "المشروع"
+   },
+   "label": "Investor"
+  }
+ ],
+ "21": [
+  {
+   "k": "line",
+   "pos": "right",
+   "cue": "تربح",
+   "kind": "up",
+   "label": "الربح",
+   "title": "آخر العام"
+  }
+ ],
+ "22": [
+  {
+   "k": "flow",
+   "pos": "right",
+   "cue": "الباسيف",
+   "a": {
+    "icon": "house",
+    "label": "الأصل"
+   },
+   "b": {
+    "icon": "money_bag",
+    "label": "ليك"
+   },
+   "label": "بلا وقتك"
+  }
+ ],
+ "23": [
+  {
+   "k": "calendar",
+   "pos": "right",
+   "title": "كل شهر",
+   "n": 6,
+   "dur": 6,
+   "value": 1000,
+   "label": "+1 000 DH",
+   "at": 1.0
+  }
+ ],
+ "24": [
+  {
+   "k": "count",
+   "pos": "full",
+   "cue": "الف",
+   "value": 1000,
+   "suffix": "DH",
+   "sub": "كل شهر",
+   "dur": 2.2
+  }
+ ],
+ "25": [
+  {
+   "k": "chips",
+   "pos": "left",
+   "title": "Asset · الأصل",
+   "items": [
+    {
+     "label": "كيعطيك كل شهر",
+     "icon": "calendar",
+     "cue": "يعطيك"
+    },
+    {
+     "label": "Passive Income",
+     "icon": "seedling",
+     "cue": "باسيف"
+    }
+   ]
+  }
+ ],
+ "27": [
+  {
+   "k": "count",
+   "pos": "right",
+   "cue": "الشهر",
+   "title": "آخر الشهر",
+   "value": 1000,
+   "suffix": "DH",
+   "sub": "Passive Income",
+   "dur": 1.8
+  }
+ ],
+ "29": [
+  {
+   "k": "calendar",
+   "pos": "full",
+   "cue": "الشهر",
+   "n": 3,
+   "dur": 3,
+   "sub": "30 يوم"
+  }
+ ],
+ "30": [
+  {
+   "k": "receipt",
+   "pos": "full",
+   "title": "مصاريف الشهر",
+   "label": "كل 30 يوم",
+   "items": [
+    {
+     "label": "الكرا",
+     "icon": "house",
+     "at": 0.2
+    },
+    {
+     "label": "الما",
+     "icon": "droplet",
+     "cue": "الماء"
+    },
+    {
+     "label": "الضو",
+     "icon": "high_voltage",
+     "cue": "الضوء"
+    },
+    {
+     "label": "القراية",
+     "icon": "graduation_cap",
+     "cue": "الدراسة"
+    },
+    {
+     "label": "Abonnements",
+     "icon": "mobile_phone",
+     "cue": "الإنسكريبسيون"
+    }
+   ]
+  }
+ ],
+ "31": [
+  {
+   "k": "scale",
+   "pos": "right",
+   "cue": "كتدخل",
+   "tip": "a",
+   "a": {
+    "icon": "money_bag",
+    "label": "كتدخل"
+   },
+   "b": {
+    "icon": "receipt",
+    "label": "كتصرف"
+   }
+  }
+ ],
+ "32": [
+  {
+   "k": "line",
+   "pos": "right",
+   "cue": "حدود",
+   "kind": "up",
+   "label": "بلا حدود",
+   "title": "المداخل"
+  }
+ ],
+ "33": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "ماشي هادي هي القضية",
+   "items": [
+    {
+     "label": "Millionaire",
+     "icon": "money_bag",
+     "cue": "مليونير"
+    },
+    {
+     "label": "Billionaire",
+     "icon": "crown",
+     "cue": "بليونير"
+    },
+    {
+     "label": "عندو شوية",
+     "icon": "coin",
+     "cue": "شوية"
+    }
+   ]
+  }
+ ],
+ "34": [
+  {
+   "k": "chips",
+   "pos": "left",
+   "title": "القضية هي",
+   "items": [
+    {
+     "label": "شحال كتصرف وانت مرتاح",
+     "icon": "receipt",
+     "cue": "بشحال"
+    },
+    {
+     "label": "ورقة وستيلو",
+     "icon": "memo",
+     "cue": "السيلو"
+    }
+   ]
+  }
+ ],
+ "38": [
+  {
+   "k": "scale",
+   "pos": "right",
+   "cue": "الباصيف",
+   "tip": "a",
+   "a": {
+    "icon": "seedling",
+    "label": "Passive"
+   },
+   "b": {
+    "icon": "receipt",
+    "label": "المصاريف"
+   }
+  }
+ ],
+ "39": [
+  {
+   "k": "scale",
+   "pos": "right",
+   "cue": "ويصرف",
+   "tip": "a",
+   "a": {
+    "icon": "receipt",
+    "label": "كيصرف 2"
+   },
+   "b": {
+    "icon": "money_bag",
+    "label": "كيدخل 1"
+   }
+  }
+ ],
+ "40": [
+  {
+   "k": "tags",
+   "pos": "right",
+   "title": "الأسعار كتزاد",
+   "items": [
+    {
+     "label": "الزيت",
+     "icon": "droplet",
+     "from": 13,
+     "to": 20,
+     "cue": "الأسعار"
+    },
+    {
+     "label": "الكرا",
+     "icon": "house",
+     "from": 2500,
+     "to": 3000
+    },
+    {
+     "label": "المازوط",
+     "icon": "fuel_pump",
+     "from": 11,
+     "to": 14
+    }
+   ]
+  }
+ ],
+ "42": [
+  {
+   "k": "line",
+   "pos": "full",
+   "cue": "11",
+   "kind": "up",
+   "label": "+11 %"
+  }
+ ],
+ "43": [
+  {
+   "k": "tags",
+   "pos": "full",
+   "items": [
+    {
+     "label": "المواد الغذائية",
+     "icon": "bread",
+     "from": 100,
+     "to": 111,
+     "cue": "الغذائية"
+    },
+    {
+     "label": "الكرا",
+     "icon": "house",
+     "from": 2500,
+     "to": 2775,
+     "cue": "الكرة"
+    }
+   ]
+  }
+ ],
+ "47": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "Active Income",
+   "items": [
+    {
+     "label": "كتدخل منها",
+     "icon": "money_bag",
+     "cue": "تدخل"
+    },
+    {
+     "label": "باش توصل لـ Passive",
+     "icon": "seedling",
+     "cue": "Passive"
+    }
+   ]
+  }
+ ],
+ "50": [
+  {
+   "k": "flow",
+   "pos": "right",
+   "cue": "الاعلان",
+   "a": {
+    "icon": "coin",
+    "label": "اللي شاط"
+   },
+   "b": {
+    "icon": "chart_increasing",
+    "label": "الإعلان"
+   },
+   "label": "تربح كثر"
+  }
+ ],
+ "51": [
+  {
+   "k": "clock",
+   "pos": "right",
+   "cue": "الصباح",
+   "a": {
+    "label": "خدمة زايدة"
+   },
+   "b": {
+    "label": "استثمار"
+   }
+  }
+ ],
+ "52": [
+  {
+   "k": "chips",
+   "pos": "left",
+   "title": "الطريقين",
+   "items": [
+    {
+     "label": "نقص المصاريف",
+     "icon": "receipt",
+     "cue": "ننقص"
+    },
+    {
+     "label": "طور المشروع",
+     "icon": "rocket",
+     "cue": "المشروع"
+    }
+   ]
+  }
+ ],
+ "54": [
+  {
+   "k": "flow",
+   "pos": "right",
+   "at": 0.6,
+   "a": {
+    "icon": "coin",
+    "label": "الفرق"
+   },
+   "b": {
+    "icon": "chart_increasing",
+    "label": "الاستثمار"
+   }
+  }
+ ],
+ "56": [
+  {
+   "k": "count",
+   "pos": "full",
+   "cue": "100",
+   "value": 100,
+   "suffix": "DH",
+   "sub": "شنو تدير بيهم؟",
+   "dur": 1.4
+  }
+ ],
+ "57": [
+  {
+   "k": "stamp",
+   "text": "خاصك بزاف",
+   "at": 1.2
+  }
+ ],
+ "58": [
+  {
+   "k": "stamp",
+   "cue": "كونتونيرا",
+   "text": "رأس مال كبير"
+  }
+ ],
+ "59": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "كل واحد وشحال عندو",
+   "items": [
+    {
+     "label": "100 · 200 DH",
+     "icon": "coin",
+     "at": 0.3
+    },
+    {
+     "label": "1 000 · 2 000 DH",
+     "icon": "money_bag",
+     "at": 0.9
+    }
+   ]
+  }
+ ],
+ "60": [
+  {
+   "k": "line",
+   "pos": "full",
+   "cue": "عائد",
+   "kind": "up",
+   "label": "أكبر عائد"
+  }
+ ],
+ "61": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "نفس 100 درهم",
+   "items": [
+    {
+     "label": "L'immobilier ✗",
+     "icon": "house",
+     "cue": "العقار"
+    },
+    {
+     "label": "Produit ؟",
+     "icon": "basket",
+     "cue": "بروضوي"
+    },
+    {
+     "label": "Publicité ؟",
+     "icon": "speech_balloon",
+     "at": 5.6
+    }
+   ]
+  }
+ ],
+ "65": [
+  {
+   "k": "chips",
+   "pos": "full",
+   "title": "Commission على كل خدمة",
+   "items": [
+    {
+     "label": "5 000 DH",
+     "icon": "gem_stone",
+     "cue": "5000"
+    },
+    {
+     "label": "1 000 DH",
+     "icon": "coin",
+     "cue": "1000"
+    },
+    {
+     "label": "2 500 DH",
+     "icon": "money_bag",
+     "cue": "2500"
+    }
+   ]
+  }
+ ],
+ "67": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "القياس ديال الصباط",
+   "items": [
+    {
+     "label": "نتا: 30",
+     "icon": "check_mark_button",
+     "cue": "30"
+    },
+    {
+     "label": "هو: 44",
+     "icon": "cross_mark",
+     "cue": "44"
+    }
+   ]
+  }
+ ],
+ "68": [
+  {
+   "k": "stamp",
+   "cue": "يجيكش",
+   "text": "ما غاديش يجيك"
+  }
+ ],
+ "71": [
+  {
+   "k": "meter",
+   "pos": "right",
+   "cue": "النص",
+   "title": "الطريق للحرية المالية",
+   "icon": "person_running",
+   "from": 0,
+   "to": 50,
+   "label": "النص ديال الطريق"
+  }
+ ],
+ "74": [
+  {
+   "k": "flow",
+   "pos": "right",
+   "cue": "الأوصول",
+   "a": {
+    "icon": "money_bag",
+    "label": "الفلوس الجداد"
+   },
+   "b": {
+    "icon": "house",
+    "label": "Actifs"
+   }
+  }
+ ],
+ "76": [
+  {
+   "k": "flow",
+   "pos": "right",
+   "cue": "الشهر",
+   "a": {
+    "icon": "house",
+    "label": "الأصل 1"
+   },
+   "b": {
+    "icon": "money_bag",
+    "label": "كل شهر"
+   }
+  }
+ ],
+ "78": [
+  {
+   "k": "line",
+   "pos": "right",
+   "cue": "المركب",
+   "kind": "up",
+   "label": "L'effet composé"
+  }
+ ],
+ "79": [
+  {
+   "k": "domino",
+   "pos": "full",
+   "cue": "الثاني",
+   "n": 6,
+   "label": "Asset"
+  }
+ ],
+ "80": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "كيوليو ساهلين",
+   "items": [
+    {
+     "label": "6 · 7 · 8 · 9 · 10",
+     "icon": "sparkles",
+     "cue": "السادسة"
+    },
+    {
+     "label": "الأول هو الصعيب",
+     "icon": "warning",
+     "cue": "للولا"
+    }
+   ]
+  }
+ ],
+ "81": [
+  {
+   "k": "line",
+   "pos": "right",
+   "cue": "ساهلين",
+   "kind": "up",
+   "label": "ساهلين"
+  }
+ ],
+ "82": [
+  {
+   "k": "scale",
+   "pos": "right",
+   "cue": "اكبر",
+   "tip": "a",
+   "a": {
+    "icon": "house",
+    "label": "الأصول"
+   },
+   "b": {
+    "icon": "briefcase",
+    "label": "الخدمة"
+   }
+  }
+ ],
+ "83": [
+  {
+   "k": "stamp",
+   "cue": "حر",
+   "text": "حر ماليا",
+   "good": true
+  }
+ ],
+ "84": [
+  {
+   "k": "stamp",
+   "cue": "للبحر",
+   "text": "ماشي هادي"
+  }
+ ],
+ "85": [
+  {
+   "k": "chips",
+   "pos": "left",
+   "items": [
+    {
+     "label": "La motivation",
+     "icon": "fire",
+     "cue": "الموتيفاسيون"
+    },
+    {
+     "label": "كتحبس",
+     "icon": "cross_mark",
+     "cue": "كتحبس"
+    },
+    {
+     "label": "الخدمة بالصح",
+     "icon": "hammer_and_wrench",
+     "cue": "بالصح"
+    }
+   ]
+  }
+ ],
+ "86": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "مجرب",
+   "items": [
+    {
+     "label": "على حياتي",
+     "icon": "check_mark_button",
+     "cue": "حياتي"
+    },
+    {
+     "label": "اللي كندربهم",
+     "icon": "busts_in_silhouette",
+     "cue": "كندربهم"
+    }
+   ]
+  }
+ ],
+ "87": [
+  {
+   "k": "globe",
+   "pos": "full",
+   "items": [
+    {
+     "label": "شاب من Agadir",
+     "icon": "seedling",
+     "cue": "أقادير",
+     "x": -30,
+     "y": -40
+    }
+   ],
+   "at": 0.3
+  }
+ ],
+ "88": [
+  {
+   "k": "calendar",
+   "pos": "full",
+   "cue": "شهور",
+   "n": 8,
+   "dur": 5,
+   "sub": "الأصل اللولاني"
+  }
+ ],
+ "89": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "title": "وانت؟",
+   "items": [
+    {
+     "label": "40 ولا 50 عام",
+     "icon": "hourglass_not_done",
+     "cue": "40"
+    },
+    {
+     "label": "تقدر تبدا",
+     "icon": "rocket",
+     "cue": "تقدر"
+    }
+   ]
+  }
+ ],
+ "90": [
+  {
+   "k": "stamp",
+   "cue": "تأثر",
+   "text": "ما كتأثرش",
+   "good": true
+  }
+ ],
+ "93": [
+  {
+   "k": "stamp",
+   "cue": "الحق",
+   "text": "عندكم الحق",
+   "good": true
+  }
+ ],
+ "94": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "items": [
+    {
+     "label": "Notifications بزاف",
+     "icon": "mobile_phone",
+     "at": 0.4
+    },
+    {
+     "label": "حيت خدام بزاف",
+     "icon": "laptop",
+     "at": 1.6
+    }
+   ]
+  }
+ ],
+ "95": [
+  {
+   "k": "scale",
+   "pos": "right",
+   "cue": "خدام",
+   "tip": "a",
+   "a": {
+    "icon": "laptop",
+    "label": "الخدمة"
+   },
+   "b": {
+    "icon": "speech_balloon",
+    "label": "الهضرة"
+   }
+  }
+ ],
+ "97": [
+  {
+   "k": "chips",
+   "pos": "right",
+   "items": [
+    {
+     "label": "خود القواعد",
+     "icon": "check_mark_button",
+     "at": 0.4
+    },
+    {
+     "label": "اللي جابو نتيجة",
+     "icon": "trophy",
+     "cue": "نتيجة"
+    }
+   ]
+  }
+ ]
+}

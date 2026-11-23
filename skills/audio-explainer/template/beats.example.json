@@ -1,0 +1,2133 @@
+{
+ "duration": 972.93,
+ "audio": "audio/voice.m4a",
+ "beats": [
+  {
+   "type": "title",
+   "icon": "e_mail",
+   "title": "الإيميل",
+   "sub": "Oranuss Academy",
+   "from": 0.11,
+   "to": 11.34
+  },
+  {
+   "type": "image",
+   "img": "img/inbox.jpg",
+   "title": "رسالة من الإيميل",
+   "from": 11.34,
+   "to": 20.92,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "flow",
+     "pos": "right",
+     "icon": "e_mail",
+     "a": {
+      "icon": "busts_in_silhouette",
+      "label": "المتدربين"
+     },
+     "b": {
+      "icon": "e_mail",
+      "label": "Oranuss"
+     },
+     "label": "كل نهار",
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "نتبع مع المتدربين",
+   "items": [
+    {
+     "icon": "speech_balloon",
+     "label": "المشاكل"
+    },
+    {
+     "icon": "memo",
+     "label": "المواضيع"
+    }
+   ],
+   "from": 20.92,
+   "to": 30.97
+  },
+  {
+   "type": "image",
+   "img": "img/support.jpg",
+   "title": "المواضيع اللي بغيتو",
+   "from": 30.97,
+   "to": 37.97,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "كنجاوبو فـ",
+     "items": [
+      {
+       "label": "الحصص",
+       "icon": "graduation_cap",
+       "at": 1.62
+      },
+      {
+       "label": "الأوديوهات",
+       "icon": "mobile_phone",
+       "at": 3.39
+      }
+     ],
+     "at": 1.2200000000000002
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "money_with_wings",
+   "title": "كيفاش نوصلو للحرية المالية؟",
+   "from": 37.97,
+   "to": 42.27,
+   "video": "vid/v_how.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "الموضوع",
+     "items": [
+      {
+       "label": "الحرية المالية",
+       "icon": "unlocked",
+       "at": 0.25
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "brain",
+   "title": "الدماغ كيتحبس ملي كنسمعو حرية مالية",
+   "from": 42.27,
+   "to": 54.29,
+   "video": "vid/v_brain.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "علاش كيتحبس؟",
+     "items": [
+      {
+       "label": "ما كاينش خطوات",
+       "icon": "red_question_mark",
+       "at": 5.31
+      },
+      {
+       "label": "ما عارفش منين يبدا",
+       "icon": "thinking_face",
+       "at": 8.02
+      }
+     ],
+     "at": 4.909999999999999
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "خاصك",
+   "icon": "key",
+   "items": [
+    {
+     "label": "طريقة"
+    },
+    {
+     "label": "خطة"
+    },
+    {
+     "label": "معرفة القوانين"
+    }
+   ],
+   "from": 54.29,
+   "to": 61.02
+  },
+  {
+   "type": "image",
+   "img": "img/singapore.jpg",
+   "title": "Singapour - Hind",
+   "from": 61.02,
+   "to": 65.9,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "globe",
+     "pos": "left",
+     "items": [
+      {
+       "label": "Singapour ✗",
+       "icon": "cross_mark",
+       "x": 80,
+       "y": 50,
+       "at": 0.25
+      },
+      {
+       "label": "Hind ✗",
+       "icon": "cross_mark",
+       "x": -40,
+       "y": -30,
+       "at": 2.23
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "balance_scale",
+   "title": "عرف القوانين وخدم مرتاح",
+   "from": 65.9,
+   "to": 83.01,
+   "video": "vid/v_rules.mp4",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "ممنوع",
+     "at": 12.14
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/chess.jpg",
+   "title": "القوانين",
+   "from": 83.01,
+   "to": 90.01,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "اللعبة عندها قوانين",
+     "items": [
+      {
+       "label": "تخدم مرتاح",
+       "icon": "smiling_face_with_sunglasses",
+       "at": 3.43
+      },
+      {
+       "label": "طريق كتمشي مزيان",
+       "icon": "check_mark_button",
+       "at": 5.47
+      }
+     ],
+     "at": 3.0300000000000002
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "pushpin",
+   "title": "خطة جربتها أنا · ماشي من كتاب",
+   "sub": "ماشي من كتاب",
+   "from": 90.01,
+   "to": 103.79,
+   "video": "vid/v_plan.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "left",
+     "title": "الخطة",
+     "items": [
+      {
+       "label": "جربتها أنا",
+       "icon": "check_mark_button",
+       "at": 2.01
+      },
+      {
+       "label": "ماشي من كتاب",
+       "icon": "cross_mark",
+       "at": 4.61
+      },
+      {
+       "label": "نطبقوها",
+       "icon": "hammer_and_wrench",
+       "at": 12.49
+      }
+     ],
+     "at": 1.6099999999999999
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "تقرا وتطبق",
+   "items": [
+    {
+     "icon": "books",
+     "label": "تقرا"
+    },
+    {
+     "icon": "hammer_and_wrench",
+     "label": "تطبق"
+    }
+   ],
+   "from": 103.79,
+   "to": 115.66,
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "full",
+     "items": [
+      {
+       "label": "تقرا",
+       "icon": "books",
+       "at": 0.25
+      },
+      {
+       "label": "تطبق",
+       "icon": "hammer_and_wrench",
+       "at": 1.18
+      },
+      {
+       "label": "تخسر الفلوس",
+       "icon": "money_with_wings",
+       "at": 2.33
+      },
+      {
+       "label": "تنوض",
+       "icon": "person_running",
+       "at": 2.93
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/learning.jpg",
+   "title": "الحرية المالية",
+   "from": 115.66,
+   "to": 122.66,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "هاد الأوديو",
+     "items": [
+      {
+       "label": "كيختصر عليك الطريق",
+       "icon": "rocket",
+       "at": 1.31
+      },
+      {
+       "label": "الحرية المالية ماشي…",
+       "icon": "red_question_mark",
+       "at": 5.5
+      }
+     ],
+     "at": 0.91
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/jet.jpg",
+   "title": "الحرية المالية ≠ طيارة",
+   "from": 122.66,
+   "to": 125.85,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "ماشي الطيارة",
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "ممكن يكون عندك كلشي…",
+   "items": [
+    {
+     "icon": "credit_card",
+     "label": "ديون"
+    },
+    {
+     "icon": "warning",
+     "label": "مشاكل"
+    }
+   ],
+   "from": 125.85,
+   "to": 136.92
+  },
+  {
+   "type": "vs",
+   "title": "جوج أنواع ديال المداخل",
+   "left": {
+    "icon": "briefcase",
+    "label": "Active Income"
+   },
+   "right": {
+    "icon": "seedling",
+    "label": "Passive Income"
+   },
+   "from": 136.92,
+   "to": 143.99
+  },
+  {
+   "type": "title",
+   "icon": "briefcase",
+   "title": "Active Income",
+   "sub": "مقابل الوقت · الجهد · الطاقة",
+   "from": 143.99,
+   "to": 153.35,
+   "fx": [
+    {
+     "k": "clock",
+     "pos": "full",
+     "a": {
+      "label": "الوقت · الجهد · الطاقة"
+     },
+     "b": {
+      "label": "فلوس"
+     },
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/office.jpg",
+   "title": "الخدمة مقابل الوقت",
+   "from": 153.35,
+   "to": 160.35,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "flow",
+     "pos": "right",
+     "a": {
+      "icon": "alarm_clock",
+      "label": "وقتك"
+     },
+     "b": {
+      "icon": "money_bag",
+      "label": "المبلغ"
+     },
+     "label": "Active Income",
+     "at": 0.74
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "شكون كيدخل Active Income؟",
+   "items": [
+    {
+     "icon": "office_building",
+     "label": "Employee"
+    },
+    {
+     "icon": "briefcase",
+     "label": "Self-employed"
+    },
+    {
+     "icon": "factory",
+     "label": "Business owner"
+    },
+    {
+     "icon": "chart_increasing",
+     "label": "Investor"
+    }
+   ],
+   "from": 160.35,
+   "to": 168.04
+  },
+  {
+   "type": "image",
+   "img": "img/doctor.jpg",
+   "title": "Self-employed: طبيب · محامي",
+   "from": 168.04,
+   "to": 181.26,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "Active Income",
+     "items": [
+      {
+       "label": "طبيب",
+       "icon": "briefcase",
+       "at": 0.25
+      },
+      {
+       "label": "محامي",
+       "icon": "balance_scale",
+       "at": 2.06
+      },
+      {
+       "label": "Business owner",
+       "icon": "factory",
+       "at": 5.47
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/investor.jpg",
+   "title": "Investor",
+   "from": 181.26,
+   "to": 189,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "flow",
+     "pos": "right",
+     "a": {
+      "icon": "money_bag",
+      "label": "فلوسك"
+     },
+     "b": {
+      "icon": "factory",
+      "label": "المشروع"
+     },
+     "label": "Investor",
+     "at": 1.79
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "handshake",
+   "title": "تحط الفلوس مع مول المشروع وتربح معاه",
+   "from": 189,
+   "to": 198.14,
+   "video": "vid/v_partner.mp4",
+   "fx": [
+    {
+     "k": "line",
+     "pos": "right",
+     "kind": "up",
+     "label": "الربح",
+     "title": "آخر العام",
+     "at": 1.05
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "seedling",
+   "title": "Passive Income · الفلوس كتدخل بلا وقتك",
+   "sub": "الفلوس كتدخل بلا وقتك",
+   "from": 198.14,
+   "to": 206.81,
+   "video": "vid/v_passive.mp4",
+   "fx": [
+    {
+     "k": "flow",
+     "pos": "right",
+     "a": {
+      "icon": "house",
+      "label": "الأصل"
+     },
+     "b": {
+      "icon": "money_bag",
+      "label": "ليك"
+     },
+     "label": "بلا وقتك",
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/garage.jpg",
+   "title": "غاراج كتكريه لشركة",
+   "from": 206.81,
+   "to": 215.03,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "calendar",
+     "pos": "right",
+     "title": "كل شهر",
+     "n": 6,
+     "dur": 6,
+     "value": 1000,
+     "label": "+1 000 DH",
+     "at": 1.0
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "value": 1000,
+   "prefix": "",
+   "suffix": "DH",
+   "sub": "كل شهر",
+   "icon": "dollar_banknote",
+   "title": "وانت ماشي واقف تما",
+   "from": 215.03,
+   "to": 228.91,
+   "fx": [
+    {
+     "k": "count",
+     "pos": "full",
+     "value": 1000,
+     "suffix": "DH",
+     "sub": "كل شهر",
+     "dur": 2.2,
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "house",
+   "title": "Asset · الأصل",
+   "sub": "الأصل",
+   "from": 228.91,
+   "to": 241.65,
+   "video": "vid/v_asset.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "left",
+     "title": "Asset · الأصل",
+     "items": [
+      {
+       "label": "كيعطيك كل شهر",
+       "icon": "calendar",
+       "at": 4.63
+      },
+      {
+       "label": "Passive Income",
+       "icon": "seedling",
+       "at": 8.35
+      }
+     ],
+     "at": 4.2299999999999995
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "واخا ما خدامش",
+   "items": [
+    {
+     "icon": "sleeping_face",
+     "label": "ناعس فالدار"
+    },
+    {
+     "icon": "airplane",
+     "label": "مسافر"
+    },
+    {
+     "icon": "beach_with_umbrella",
+     "label": "مع العائلة"
+    }
+   ],
+   "from": 241.65,
+   "to": 252.57
+  },
+  {
+   "type": "image",
+   "img": "img/family.jpg",
+   "title": "الوقت مع العائلة",
+   "from": 252.57,
+   "to": 259.57,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "count",
+     "pos": "right",
+     "title": "آخر الشهر",
+     "value": 1000,
+     "suffix": "DH",
+     "sub": "Passive Income",
+     "dur": 1.8,
+     "at": 2.2
+    }
+   ]
+  },
+  {
+   "from": 259.57,
+   "to": 274.79,
+   "type": "flow",
+   "title": "فهمنا الفرق",
+   "rows": [
+    {
+     "a": {
+      "icon": "briefcase",
+      "label": "وقتك"
+     },
+     "mid": "Active Income",
+     "b": {
+      "icon": "money_bag",
+      "label": "الفلوس"
+     },
+     "note": "نخدمو عليه"
+    },
+    {
+     "a": {
+      "icon": "house",
+      "label": "Asset"
+     },
+     "mid": "Passive Income",
+     "b": {
+      "icon": "money_bag",
+      "label": "الفلوس"
+     },
+     "note": "كيخدم علينا"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "icon": "calendar",
+   "title": "في الشهر",
+   "from": 274.79,
+   "to": 278.85,
+   "fx": [
+    {
+     "k": "calendar",
+     "pos": "full",
+     "n": 3,
+     "dur": 3,
+     "sub": "30 يوم",
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "مصاريف الشهر",
+   "items": [
+    {
+     "icon": "high_voltage",
+     "label": "الضو"
+    },
+    {
+     "icon": "droplet",
+     "label": "الما"
+    },
+    {
+     "icon": "graduation_cap",
+     "label": "القراية"
+    },
+    {
+     "icon": "mobile_phone",
+     "label": "Abonnements"
+    }
+   ],
+   "from": 278.85,
+   "to": 286.46,
+   "fx": [
+    {
+     "k": "receipt",
+     "pos": "full",
+     "title": "مصاريف الشهر",
+     "label": "كل 30 يوم",
+     "items": [
+      {
+       "label": "الكرا",
+       "icon": "house",
+       "at": 0.2
+      },
+      {
+       "label": "الما",
+       "icon": "droplet",
+       "at": 0.45
+      },
+      {
+       "label": "الضو",
+       "icon": "high_voltage",
+       "at": 0.9
+      },
+      {
+       "label": "القراية",
+       "icon": "graduation_cap",
+       "at": 1.41
+      },
+      {
+       "label": "Abonnements",
+       "icon": "mobile_phone",
+       "at": 5.21
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/bills.jpg",
+   "title": "30 يوم",
+   "from": 286.46,
+   "to": 293.46,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "scale",
+     "pos": "right",
+     "tip": "a",
+     "a": {
+      "icon": "money_bag",
+      "label": "كتدخل"
+     },
+     "b": {
+      "icon": "receipt",
+      "label": "كتصرف"
+     },
+     "at": 2.76
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "light_bulb",
+   "title": "كتدخل كثر من داكشي اللي كتصرف وانت مرتاح",
+   "from": 293.46,
+   "to": 302.04,
+   "video": "vid/v_relax.mp4",
+   "fx": [
+    {
+     "k": "line",
+     "pos": "right",
+     "kind": "up",
+     "label": "بلا حدود",
+     "title": "المداخل",
+     "at": 5.7
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/wealth.jpg",
+   "title": "الفلوس ما عندهاش حدود",
+   "from": 302.04,
+   "to": 310,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "ماشي هادي هي القضية",
+     "items": [
+      {
+       "label": "Millionaire",
+       "icon": "money_bag",
+       "at": 2.18
+      },
+      {
+       "label": "Billionaire",
+       "icon": "crown",
+       "at": 2.43
+      },
+      {
+       "label": "عندو شوية",
+       "icon": "coin",
+       "at": 4.18
+      }
+     ],
+     "at": 1.7800000000000002
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "crown",
+   "title": "ما عندهاش علاقة بالمبلغ",
+   "from": 310,
+   "to": 321.6,
+   "video": "vid/v_city.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "left",
+     "title": "القضية هي",
+     "items": [
+      {
+       "label": "شحال كتصرف وانت مرتاح",
+       "icon": "receipt",
+       "at": 2.16
+      },
+      {
+       "label": "ورقة وستيلو",
+       "icon": "memo",
+       "at": 6.14
+      }
+     ],
+     "at": 1.7600000000000002
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "شحال كتصرف وانت مرتاح؟",
+   "items": [
+    {
+     "icon": "coin",
+     "label": "20 000 DH"
+    },
+    {
+     "icon": "money_bag",
+     "label": "30 000 DH"
+    },
+    {
+     "icon": "gem_stone",
+     "label": "40 000 DH"
+    }
+   ],
+   "from": 321.6,
+   "to": 337.53
+  },
+  {
+   "from": 337.53,
+   "to": 352,
+   "type": "equation",
+   "title": "شكون حر ماليا؟",
+   "left": {
+    "icon": "seedling",
+    "label": "Passive Income"
+   },
+   "right": {
+    "icon": "receipt",
+    "label": "المصاريف"
+   },
+   "result": "حر ماليا"
+  },
+  {
+   "type": "steps",
+   "title": "الحرية المالية",
+   "icon": "memo",
+   "items": [
+    {
+     "label": "Active Income: كنخدم عليه"
+    },
+    {
+     "label": "Passive Income: كيخدم عليا"
+    },
+    {
+     "label": "المصاريف < Passive Income"
+    }
+   ],
+   "from": 352,
+   "to": 363.35
+  },
+  {
+   "type": "image",
+   "img": "img/notebook.jpg",
+   "title": "من Passive Income · ماشي من Active",
+   "from": 363.35,
+   "to": 370.35,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "scale",
+     "pos": "right",
+     "tip": "a",
+     "a": {
+      "icon": "seedling",
+      "label": "Passive"
+     },
+     "b": {
+      "icon": "receipt",
+      "label": "المصاريف"
+     },
+     "at": 4.19
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "face_with_spiral_eyes",
+   "title": "فين كيتخربقو الناس؟",
+   "from": 370.35,
+   "to": 379.16,
+   "video": "vid/v_confused.mp4",
+   "fx": [
+    {
+     "k": "scale",
+     "pos": "right",
+     "tip": "a",
+     "a": {
+      "icon": "receipt",
+      "label": "كيصرف 2"
+     },
+     "b": {
+      "icon": "money_bag",
+      "label": "كيدخل 1"
+     },
+     "at": 6.45
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/prices.jpg",
+   "title": "الأسعار كتزاد",
+   "from": 379.16,
+   "to": 387,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "tags",
+     "pos": "right",
+     "title": "الأسعار كتزاد",
+     "items": [
+      {
+       "label": "الزيت",
+       "icon": "droplet",
+       "from": 13,
+       "to": 20,
+       "at": 0.25
+      },
+      {
+       "label": "الكرا",
+       "icon": "house",
+       "from": 2500,
+       "to": 3000
+      },
+      {
+       "label": "المازوط",
+       "icon": "fuel_pump",
+       "from": 11,
+       "to": 14
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "from": 387,
+   "to": 398.41,
+   "type": "bars",
+   "title": "فين كيتخربقو؟",
+   "a": {
+    "label": "المداخل",
+    "sub": "fixe"
+   },
+   "b": {
+    "label": "المصاريف",
+    "sub": "كتطلع"
+   }
+  },
+  {
+   "from": 398.41,
+   "to": 408.97,
+   "type": "title",
+   "icon": "chart_increasing",
+   "title": "L'inflation",
+   "sub": "الأسعار كتزاد",
+   "fx": [
+    {
+     "k": "line",
+     "pos": "full",
+     "kind": "up",
+     "label": "+11 %",
+     "at": 2.37
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "كتزيد ف…",
+   "items": [
+    {
+     "icon": "bread",
+     "label": "المواد الغذائية"
+    },
+    {
+     "icon": "house",
+     "label": "الكرا"
+    }
+   ],
+   "from": 408.97,
+   "to": 412.19,
+   "fx": [
+    {
+     "k": "tags",
+     "pos": "full",
+     "items": [
+      {
+       "label": "المواد الغذائية",
+       "icon": "bread",
+       "from": 100,
+       "to": 111,
+       "at": 0.25
+      },
+      {
+       "label": "الكرا",
+       "icon": "house",
+       "from": 2500,
+       "to": 2775,
+       "at": 2.07
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "cutout",
+   "img": "img/house-cut.png",
+   "title": "عندك Asset؟",
+   "sub": "الكرا ديالك كيطلع معاك",
+   "from": 412.19,
+   "to": 426.53,
+   "credit": "Pinterest"
+  },
+  {
+   "type": "title",
+   "icon": "briefcase",
+   "title": "الخطوة 1: Active Income",
+   "sub": "بلا Active Income ما كاين حرية مالية",
+   "from": 426.53,
+   "to": 432.53
+  },
+  {
+   "type": "icons",
+   "title": "خاصك شي حاجة تخدم عليها",
+   "items": [
+    {
+     "icon": "factory",
+     "label": "Business"
+    },
+    {
+     "icon": "office_building",
+     "label": "الوظيفة"
+    },
+    {
+     "icon": "chart_increasing",
+     "label": "Investissement"
+    }
+   ],
+   "from": 432.53,
+   "to": 442.57
+  },
+  {
+   "type": "image",
+   "img": "img/business.jpg",
+   "title": "Le business",
+   "from": 442.57,
+   "to": 449.57,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "Active Income",
+     "items": [
+      {
+       "label": "كتدخل منها",
+       "icon": "money_bag",
+       "at": 1.01
+      },
+      {
+       "label": "باش توصل لـ Passive",
+       "icon": "seedling",
+       "at": 4.75
+      }
+     ],
+     "at": 0.61
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "icon": "balance_scale",
+   "title": "الخطوة 2",
+   "sub": "نقص المصاريف · زيد المداخل",
+   "from": 449.57,
+   "to": 456.26
+  },
+  {
+   "type": "icons",
+   "title": "باش يشيط ليك ما تستثمر",
+   "items": [
+    {
+     "icon": "receipt",
+     "label": "نقص المصاريف"
+    },
+    {
+     "icon": "chart_increasing",
+     "label": "زيد المداخل"
+    }
+   ],
+   "from": 456.26,
+   "to": 472.83
+  },
+  {
+   "type": "image",
+   "img": "img/savings.jpg",
+   "title": "باش يشيط ليك",
+   "from": 472.83,
+   "to": 479.83,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "flow",
+     "pos": "right",
+     "a": {
+      "icon": "coin",
+      "label": "اللي شاط"
+     },
+     "b": {
+      "icon": "chart_increasing",
+      "label": "الإعلان"
+     },
+     "label": "تربح كثر",
+     "at": 0.15
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/worklate.jpg",
+   "title": "خدمة زايدة = فلوس للاستثمار",
+   "from": 479.83,
+   "to": 488,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "clock",
+     "pos": "right",
+     "a": {
+      "label": "خدمة زايدة"
+     },
+     "b": {
+      "label": "استثمار"
+     },
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "stopwatch",
+   "title": "خدم كثر باش تستثمر كثر",
+   "from": 488,
+   "to": 501.68,
+   "video": "vid/v_worklate.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "left",
+     "title": "الطريقين",
+     "items": [
+      {
+       "label": "نقص المصاريف",
+       "icon": "receipt",
+       "at": 5.52
+      },
+      {
+       "label": "طور المشروع",
+       "icon": "rocket",
+       "at": 11.44
+      }
+     ],
+     "at": 5.119999999999999
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "الهدف",
+   "icon": "rocket",
+   "items": [
+    {
+     "label": "نقص من المصاريف"
+    },
+    {
+     "label": "نزيد فالخدمة"
+    },
+    {
+     "label": "نستثمر الفرق"
+    }
+   ],
+   "from": 501.68,
+   "to": 519.65
+  },
+  {
+   "type": "image",
+   "img": "img/invest.jpg",
+   "title": "الفرق → الاستثمار",
+   "from": 519.65,
+   "to": 526.65,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "flow",
+     "pos": "right",
+     "at": 0.6,
+     "a": {
+      "icon": "coin",
+      "label": "الفرق"
+     },
+     "b": {
+      "icon": "chart_increasing",
+      "label": "الاستثمار"
+     }
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "icon": "gem_stone",
+   "title": "الخطوة 3",
+   "sub": "أكبر عائد بأقل مبلغ",
+   "from": 526.65,
+   "to": 539.34
+  },
+  {
+   "type": "stat",
+   "value": 100,
+   "suffix": "DH",
+   "sub": "شنو تدير بيهم؟",
+   "icon": "dollar_banknote",
+   "title": "بداية صغيرة",
+   "from": 539.34,
+   "to": 545.5,
+   "fx": [
+    {
+     "k": "count",
+     "pos": "full",
+     "value": 100,
+     "suffix": "DH",
+     "sub": "شنو تدير بيهم؟",
+     "dur": 1.4,
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/realestate.jpg",
+   "title": "L'immobilier: خاصك بزاف",
+   "from": 545.5,
+   "to": 551.78,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "خاصك بزاف",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/container.jpg",
+   "title": "Conteneur من La Chine؟",
+   "from": 551.78,
+   "to": 560,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "رأس مال كبير",
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "cross_mark",
+   "title": "ما خاصنيش طريق فيها رأس مال كبير",
+   "from": 560,
+   "to": 568.43,
+   "video": "vid/v_capital.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "كل واحد وشحال عندو",
+     "items": [
+      {
+       "label": "100 · 200 DH",
+       "icon": "coin",
+       "at": 0.3
+      },
+      {
+       "label": "1 000 · 2 000 DH",
+       "icon": "money_bag",
+       "at": 0.9
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "icon": "brain",
+   "title": "المهارات",
+   "sub": "أكبر عائد على الاستثمار",
+   "from": 568.43,
+   "to": 579.73,
+   "fx": [
+    {
+     "k": "line",
+     "pos": "full",
+     "kind": "up",
+     "label": "أكبر عائد",
+     "at": 8.26
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/skills.jpg",
+   "title": "تعلم مهارة",
+   "from": 579.73,
+   "to": 586.73,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "نفس 100 درهم",
+     "items": [
+      {
+       "label": "L'immobilier ✗",
+       "icon": "house",
+       "at": 1.02
+      },
+      {
+       "label": "Produit ؟",
+       "icon": "basket",
+       "at": 4.95
+      },
+      {
+       "label": "Publicité ؟",
+       "icon": "speech_balloon",
+       "at": 5.6
+      }
+     ],
+     "at": 0.62
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "نفس 100 درهم",
+   "left": {
+    "icon": "office_building",
+    "label": "L'immobilier",
+    "sub": "خسرتهم"
+   },
+   "right": {
+    "icon": "handshake",
+    "label": "Closing",
+    "sub": "عائد كبير"
+   },
+   "from": 586.73,
+   "to": 592.0
+  },
+  {
+   "type": "cutout",
+   "img": "img/closing-cut.png",
+   "title": "Closing",
+   "sub": "إقفال الاتفاقات",
+   "from": 592.0,
+   "to": 600.99,
+   "credit": "Pinterest"
+  },
+  {
+   "type": "icons",
+   "title": "كتحتاج غير…",
+   "items": [
+    {
+     "icon": "mobile_phone",
+     "label": "Abonnement téléphone"
+    }
+   ],
+   "from": 600.99,
+   "to": 609.75
+  },
+  {
+   "type": "icons",
+   "title": "Commission على كل خدمة",
+   "items": [
+    {
+     "icon": "coin",
+     "label": "1 000 DH"
+    },
+    {
+     "icon": "money_bag",
+     "label": "2 500 DH"
+    },
+    {
+     "icon": "gem_stone",
+     "label": "5 000 DH"
+    }
+   ],
+   "from": 609.75,
+   "to": 621.36,
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "full",
+     "title": "Commission على كل خدمة",
+     "items": [
+      {
+       "label": "5 000 DH",
+       "icon": "gem_stone",
+       "at": 3.09
+      },
+      {
+       "label": "1 000 DH",
+       "icon": "coin",
+       "at": 5.65
+      },
+      {
+       "label": "2 500 DH",
+       "icon": "money_bag",
+       "at": 7.91
+      }
+     ],
+     "at": 2.69
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "الطريق ديالي",
+   "icon": "stopwatch",
+   "items": [
+    {
+     "label": "فلوس أقل"
+    },
+    {
+     "label": "وقت أكثر"
+    },
+    {
+     "label": "مهارة Closing"
+    }
+   ],
+   "from": 621.36,
+   "to": 643.06
+  },
+  {
+   "type": "image",
+   "img": "img/path.jpg",
+   "title": "اختار الطريق ديالك",
+   "from": 643.06,
+   "to": 650.06,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "القياس ديال الصباط",
+     "items": [
+      {
+       "label": "نتا: 30",
+       "icon": "check_mark_button",
+       "at": 3.25
+      },
+      {
+       "label": "هو: 44",
+       "icon": "cross_mark",
+       "at": 4.95
+      }
+     ],
+     "at": 2.85
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/shoes.jpg",
+   "title": "الطريق اللي كيناسبك",
+   "from": 650.06,
+   "to": 658,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "ما غاديش يجيك",
+     "at": 2.72
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "كل واحد والقياس ديالو",
+   "left": {
+    "icon": "cross_mark",
+    "label": "صباط 44"
+   },
+   "right": {
+    "icon": "check_mark_button",
+    "label": "القياس ديالك"
+   },
+   "from": 658,
+   "to": 670.33
+  },
+  {
+   "type": "icons",
+   "title": "مهارات بلا رأس مال",
+   "items": [
+    {
+     "icon": "handshake",
+     "label": "Closing"
+    },
+    {
+     "icon": "laptop",
+     "label": "Services"
+    },
+    {
+     "icon": "shopping_cart",
+     "label": "بلا سلعة"
+    }
+   ],
+   "from": 670.33,
+   "to": 685.44
+  },
+  {
+   "type": "image",
+   "img": "img/services.jpg",
+   "title": "Services بلا سلعة",
+   "from": 685.44,
+   "to": 692.44,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "meter",
+     "pos": "right",
+     "title": "الطريق للحرية المالية",
+     "icon": "person_running",
+     "from": 0,
+     "to": 50,
+     "label": "النص ديال الطريق",
+     "at": 5.8
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "icon": "locked",
+   "title": "الخطوة 4",
+   "sub": "نفس Lifestyle · استثمر كلشي",
+   "from": 692.44,
+   "to": 702.37
+  },
+  {
+   "type": "steps",
+   "title": "الفلوس الجداد",
+   "icon": "key",
+   "items": [
+    {
+     "label": "نفس المعيشة"
+    },
+    {
+     "label": "ما تاكلهمش"
+    },
+    {
+     "label": "حطهم فـ Actifs"
+    }
+   ],
+   "from": 702.37,
+   "to": 726.57
+  },
+  {
+   "type": "image",
+   "img": "img/assets.jpg",
+   "title": "حط الفلوس فـ Actifs",
+   "from": 726.57,
+   "to": 733.57,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "flow",
+     "pos": "right",
+     "a": {
+      "icon": "money_bag",
+      "label": "الفلوس الجداد"
+     },
+     "b": {
+      "icon": "house",
+      "label": "Actifs"
+     },
+     "at": 4.73
+    }
+   ]
+  },
+  {
+   "type": "icons",
+   "title": "كبر Le business",
+   "items": [
+    {
+     "icon": "speech_balloon",
+     "label": "Publicité"
+    },
+    {
+     "icon": "link",
+     "label": "Équipe à distance"
+    },
+    {
+     "icon": "rocket",
+     "label": "المشروع"
+    }
+   ],
+   "from": 733.57,
+   "to": 746.23
+  },
+  {
+   "type": "image",
+   "img": "img/team.jpg",
+   "title": "Équipe à distance",
+   "from": 746.23,
+   "to": 753.23,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "flow",
+     "pos": "right",
+     "a": {
+      "icon": "house",
+      "label": "الأصل 1"
+     },
+     "b": {
+      "icon": "money_bag",
+      "label": "كل شهر"
+     },
+     "at": 0.57
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "icon": "hourglass_not_done",
+   "title": "الخطوة 5",
+   "sub": "نفس الحاجة · بلا ما تبدل الطريق",
+   "from": 753.23,
+   "to": 768.65
+  },
+  {
+   "type": "image",
+   "img": "img/compound.jpg",
+   "title": "L'effet composé",
+   "from": 768.65,
+   "to": 774.68,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "line",
+     "pos": "right",
+     "kind": "up",
+     "label": "L'effet composé",
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "from": 774.68,
+   "to": 787.98,
+   "type": "chain",
+   "title": "L'effet composé",
+   "label": "Asset",
+   "n": 5,
+   "fx": [
+    {
+     "k": "domino",
+     "pos": "full",
+     "n": 6,
+     "label": "Asset",
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/dominoes.jpg",
+   "title": "كل أصل كيجيب الآخر",
+   "from": 787.98,
+   "to": 794.98,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "كيوليو ساهلين",
+     "items": [
+      {
+       "label": "6 · 7 · 8 · 9 · 10",
+       "icon": "sparkles",
+       "at": 2.58
+      },
+      {
+       "label": "الأول هو الصعيب",
+       "icon": "warning",
+       "at": 6.59
+      }
+     ],
+     "at": 2.18
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "rocket",
+   "title": "الأول صعيب… الباقي ساهلين",
+   "from": 794.98,
+   "to": 807.56,
+   "video": "vid/v_climb.mp4",
+   "fx": [
+    {
+     "k": "line",
+     "pos": "right",
+     "kind": "up",
+     "label": "ساهلين",
+     "at": 2.98
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/mountain.jpg",
+   "title": "البداية صعيبة",
+   "from": 807.56,
+   "to": 814.56,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "scale",
+     "pos": "right",
+     "tip": "a",
+     "a": {
+      "icon": "house",
+      "label": "الأصول"
+     },
+     "b": {
+      "icon": "briefcase",
+      "label": "الخدمة"
+     },
+     "at": 3.58
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "crown",
+   "title": "هنا تقدر تقول: أنا حر ماليا",
+   "from": 814.56,
+   "to": 829.45,
+   "video": "vid/v_free.mp4",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "حر ماليا",
+     "good": true,
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/beach.jpg",
+   "title": "ماشي البحر و La motivation",
+   "from": 829.45,
+   "to": 836.81,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "ماشي هادي",
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "fire",
+   "title": "الخدمة بالصح كتبدا ملي كتحبس La motivation",
+   "from": 836.81,
+   "to": 852.63,
+   "video": "vid/v_focus.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "left",
+     "items": [
+      {
+       "label": "La motivation",
+       "icon": "fire",
+       "at": 0.25
+      },
+      {
+       "label": "كتحبس",
+       "icon": "cross_mark",
+       "at": 3.37
+      },
+      {
+       "label": "الخدمة بالصح",
+       "icon": "hammer_and_wrench",
+       "at": 3.62
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "check_mark_button",
+   "title": "مجرب · على حياتي وعلى اللي كندربهم",
+   "sub": "على حياتي وعلى اللي كندربهم",
+   "from": 852.63,
+   "to": 860.05,
+   "video": "vid/v_teach.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "مجرب",
+     "items": [
+      {
+       "label": "على حياتي",
+       "icon": "check_mark_button",
+       "at": 1.91
+      },
+      {
+       "label": "اللي كندربهم",
+       "icon": "busts_in_silhouette",
+       "at": 3.75
+      }
+     ],
+     "at": 1.5099999999999998
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "value": 18,
+   "suffix": "عام",
+   "icon": "seedling",
+   "title": "شاب",
+   "from": 860.05,
+   "to": 866.63,
+   "fx": [
+    {
+     "k": "globe",
+     "pos": "full",
+     "items": [
+      {
+       "label": "شاب من Agadir",
+       "icon": "seedling",
+       "x": -30,
+       "y": -40,
+       "at": 3.49
+      }
+     ],
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "value": 8,
+   "suffix": "شهور",
+   "sub": "الأصل اللولاني ديالو",
+   "icon": "trophy",
+   "title": "النتيجة",
+   "from": 866.63,
+   "to": 877.7,
+   "fx": [
+    {
+     "k": "calendar",
+     "pos": "full",
+     "n": 8,
+     "dur": 5,
+     "sub": "الأصل اللولاني",
+     "at": 0.48
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "hourglass_not_done",
+   "title": "تقدر تكون عندك 40 ولا 50 عام",
+   "from": 877.7,
+   "to": 888,
+   "video": "vid/v_older.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "title": "وانت؟",
+     "items": [
+      {
+       "label": "40 ولا 50 عام",
+       "icon": "hourglass_not_done",
+       "at": 0.25
+      },
+      {
+       "label": "تقدر تبدا",
+       "icon": "rocket",
+       "at": 6.38
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/agadir.jpg",
+   "title": "شاب عندو 18 عام",
+   "from": 888,
+   "to": 892.9,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "ما كتأثرش",
+     "good": true,
+     "at": 1.31
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "icon": "pushpin",
+   "title": "عاود سمع هاد L'audio",
+   "sub": "Hamza Oranuss",
+   "from": 892.9,
+   "to": 902.29
+  },
+  {
+   "type": "icons",
+   "title": "جوج حوايج كيقلقو الناس",
+   "items": [
+    {
+     "icon": "speech_balloon",
+     "label": "ما كنهضرش بزاف"
+    },
+    {
+     "icon": "mobile_phone",
+     "label": "الإشعارات بزاف"
+    }
+   ],
+   "from": 902.29,
+   "to": 918.74
+  },
+  {
+   "type": "video",
+   "icon": "check_mark_button",
+   "title": "عندكم الحق",
+   "from": 918.74,
+   "to": 934.0,
+   "video": "vid/v_talk.mp4",
+   "fx": [
+    {
+     "k": "stamp",
+     "text": "عندكم الحق",
+     "good": true,
+     "at": 0.25
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "img": "img/notifications.jpg",
+   "title": "الإشعارات",
+   "from": 934.0,
+   "to": 941,
+   "credit": "Pexels",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "items": [
+      {
+       "label": "Notifications بزاف",
+       "icon": "mobile_phone",
+       "at": 0.4
+      },
+      {
+       "label": "حيت خدام بزاف",
+       "icon": "laptop",
+       "at": 1.6
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "icon": "speech_balloon",
+   "title": "كنخدم بزاف… وما كنهضرش بزاف",
+   "from": 941,
+   "to": 950.27,
+   "video": "vid/v_busy.mp4",
+   "fx": [
+    {
+     "k": "scale",
+     "pos": "right",
+     "tip": "a",
+     "a": {
+      "icon": "laptop",
+      "label": "الخدمة"
+     },
+     "b": {
+      "icon": "speech_balloon",
+      "label": "الهضرة"
+     },
+     "at": 0.99
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "خود اللي زوين",
+   "left": {
+    "icon": "cross_mark",
+    "label": "جوج خايبين",
+    "sub": "نساهم"
+   },
+   "right": {
+    "icon": "star",
+    "label": "جوج زوانين",
+    "sub": "خدام بيهم"
+   },
+   "from": 950.27,
+   "to": 967.12
+  },
+  {
+   "type": "video",
+   "icon": "trophy",
+   "title": "خود القواعد اللي جابو نتيجة",
+   "from": 967.12,
+   "to": 972.93,
+   "video": "vid/v_success.mp4",
+   "fx": [
+    {
+     "k": "chips",
+     "pos": "right",
+     "items": [
+      {
+       "label": "خود القواعد",
+       "icon": "check_mark_button",
+       "at": 0.4
+      },
+      {
+       "label": "اللي جابو نتيجة",
+       "icon": "trophy",
+       "at": 0.65
+      }
+     ],
+     "at": 0.2
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+# Copy this template when planning a non-trivial animation.
+name: ""
+intent: ""
+target_environment: ""
+element: ""
+properties:
+  - name: ""
+    unit: ""
+start_state: {}
+end_state: {}
+duration_ms: 0
+delay_ms: 0
+segments:
+  - start_ms: 0
+    end_ms: 0
+    from: null
+    to: null
+    interpolation: ""
+    easing: ""
+overshoot:
+  allowed: false
+  amount: null
+loop:
+  enabled: false
+  count: 1
+  seamless: false
+reduced_motion:
+  behavior: ""
+validation:
+  - "Check first frame"
+  - "Check intermediate frames"
+  - "Check final frame"
+  - "Check keyframe continuity"
+  - "Check reduced-motion behavior"
