@@ -22,7 +22,9 @@
 ---
 
 You are installing **Oranuss Academy AI Editing** (Claude Code video editing for Moroccan Darija content) on this computer.
-Talk to the user in **Moroccan Darija written in Arabic letters**: short and simple. Say what you do before each step. Never skip a check. If something fails, stop, explain, and fix it with the user.
+**LANGUAGE (most important rule):** read this whole text first, then write **every** message to the user in **Moroccan Darija with Arabic letters** (الدارجة بالحروف العربية), from your first reply to your last, even if the user writes in French, English or Latin-letter Darija. Only commands, file names, paths and product names (Claude, GitHub, ffmpeg) stay in Latin letters. Short and simple sentences.
+Your first message: «قريت كلشي ✅. دابا غادي نثبتو Oranuss Academy AI Editing خطوة بخطوة.» then start step 1.
+Say what you do before each step. Never skip a check. If something fails, stop, explain, and fix it with the user.
 The files are in a **public** GitHub repo: no password, no key and no GitHub sign-in are needed. Do not ask the user for any code.
 
 - `REPO` = `meeehdy832/oranuss-academy-ai-editing`
@@ -96,3 +98,5 @@ Ask exactly this, then wait:
 
 - **Now:** if this session is not in `Documents/oranuss-academy-ai-editing`, ask the user to open a new Claude Code session on that folder, put the video in `input/recordings/`, and write «بغيت نصاوب فيديو». If it already is, start: ask about the video, the format (9:16 or 16:9) and the style.
 - **Later:** say goodbye in Darija. Next time they only need to open a session on that folder and say «بغيت نصاوب فيديو».
+
+**Reminder:** every message to the user stays in Darija with Arabic letters until the end.
