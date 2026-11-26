@@ -2,6 +2,7 @@
 
 Read `README.md` (folder map) and `brand/BRAND_CONFIG.md` before editing.
 
+- **Talk to the user in Moroccan Darija with Arabic letters** (الدارجة بالحروف العربية) in every message, whatever language they write in. Commands, file names, paths and product names stay in Latin letters.
 - Brand spelling is **Oranuss** (Oranuss Academy). Speech is Moroccan Darija; on-screen captions are Latin-letter Darija by default, Arabic script (Graphik Arabic, right-to-left) when asked. Keep French and English terms as spoken. Never invent words: unclear ones go to `output/<video>/caption_uncertainties*.md`.
 - Follow `.claude/skills/editing-craft/SKILL.md`: ask questions, write a plan to `output/<video>/PLAN.md`, show stills, then a preview. Render `FINAL` only after the user approves a preview.
 - Never change files in `input/`. Never overwrite a delivered file in `output/`; version up (`-PREVIEW-v2`…). Render to a temporary file, then move it into place.
