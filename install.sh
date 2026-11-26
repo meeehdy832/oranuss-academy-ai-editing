@@ -1,7 +1,7 @@
 #!/bin/bash
 # Oranuss Academy AI Editing: installer (macOS, Apple Silicon). Developed by Mehdi ORANUSS | Powered by Claude
-# usage:  KIT_TOKEN=<read-only key> bash install.sh [target] [--tools] [--model] [--earshot]
-# The repo is PRIVATE: files come through the GitHub API with a read-only key (Contents: read, this repo only).
+# usage:  bash install.sh [target] [--tools] [--model] [--earshot]
+# The repo is PUBLIC: files come straight from github.com, no key or password.
 #   target     editing folder (default ~/Documents/oranuss-academy-ai-editing)
 #   --tools    install ffmpeg-full, whisper-cpp, node with Homebrew (Homebrew must already exist)
 #   --model    download the whisper large-v3 model (2.9 GB, Hugging Face)
@@ -19,12 +19,9 @@ echo "== 1/7 Oranuss files"
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || true)"
 if [ -n "$HERE" ] && [ -d "$HERE/workspace" ] && [ -d "$HERE/skills" ]; then SRC="$HERE"; else
   TMP="$(mktemp -d)"
-  # private repo: read-only key given in the install text (KIT_TOKEN), else a signed-in GitHub CLI
-  if [ -n "$KIT_TOKEN" ]; then
-    curl -fsSL -H "Authorization: Bearer $KIT_TOKEN" -H "Accept: application/vnd.github+json" \
-      "https://api.github.com/repos/$REPO/tarball/main" -o "$TMP/repo.tgz" || { echo "STOP: the access key was refused (expired or wrong). Ask Oranuss Academy for a new install text."; exit 4; }
-  elif command -v gh >/dev/null && gh auth status >/dev/null 2>&1; then gh api "repos/$REPO/tarball/main" > "$TMP/repo.tgz"
-  else echo "STOP: no access key. Run with  KIT_TOKEN=<key> bash install.sh"; exit 3; fi
+  # public repo: download the main branch, no key needed
+  curl -fsSL "https://github.com/$REPO/archive/refs/heads/main.tar.gz" -o "$TMP/repo.tgz" \
+    || { echo "STOP: could not download the Oranuss files. Check the internet and run again."; exit 4; }
   tar -xzf "$TMP/repo.tgz" -C "$TMP" && rm "$TMP/repo.tgz"
   SRC="$(ls -d "$TMP"/*/ | head -1)"; SRC="${SRC%/}"; fi
 mkdir -p "$TARGET" "$HOME/.claude/skills"

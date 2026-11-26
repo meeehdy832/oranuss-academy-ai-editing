@@ -1,11 +1,10 @@
 # Oranuss Academy AI Editing: installer for Windows 10/11. Developed by Mehdi ORANUSS | Powered by Claude
 # usage (PowerShell):
-#   $env:KIT_TOKEN = "<read-only key>"
 #   powershell -ExecutionPolicy Bypass -File install.ps1 [-Target <folder>] [-Tools] [-Model] [-Earshot]
 #   -Tools    winget: Git, FFmpeg (full build, libass), Node.js LTS, Python 3.12 + whisper.cpp from GitHub releases
 #   -Model    whisper large-v3 model (2.9 GB, Hugging Face)
 #   -Earshot  earshot (listen/judge sound) into a Python venv
-# Only Oranuss files come from the private repo; every other piece comes from its own official link (SOURCES.md).
+# Oranuss files come from this public repo; every other piece comes from its own official link (SOURCES.md).
 # Never overwrites an existing file.
 param(
   [string]$Target = (Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'oranuss-academy-ai-editing'),
@@ -24,14 +23,13 @@ Write-Host '== 1/8 Oranuss files'
 if ($PSScriptRoot -and (Test-Path (Join-Path $PSScriptRoot 'workspace')) -and (Test-Path (Join-Path $PSScriptRoot 'skills'))) {
   $Src = $PSScriptRoot
 } else {
-  if (-not $env:KIT_TOKEN) { No 'no access key: set $env:KIT_TOKEN first'; exit 3 }
   $Tmp = Join-Path $env:TEMP ('oranuss-' + [guid]::NewGuid().ToString('N').Substring(0,8))
   New-Item -ItemType Directory -Force -Path $Tmp | Out-Null
   try {
-    Invoke-WebRequest -UseBasicParsing -Uri "https://api.github.com/repos/$Repo/tarball/main" `
-      -Headers @{ Authorization = "Bearer $env:KIT_TOKEN"; Accept = 'application/vnd.github+json'; 'User-Agent' = 'oranuss-installer' } `
+    Invoke-WebRequest -UseBasicParsing -Uri "https://github.com/$Repo/archive/refs/heads/main.tar.gz" `
+      -Headers @{ 'User-Agent' = 'oranuss-installer' } `
       -OutFile (Join-Path $Tmp 'repo.tgz')
-  } catch { No 'the access key was refused (expired or wrong). Ask Oranuss Academy for a new install text.'; exit 4 }
+  } catch { No 'could not download the Oranuss files. Check the internet and run again.'; exit 4 }
   tar -xzf (Join-Path $Tmp 'repo.tgz') -C $Tmp
   $Src = (Get-ChildItem $Tmp -Directory | Select-Object -First 1).FullName
 }
