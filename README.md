@@ -8,12 +8,11 @@ Video editing with **Claude Code** for Moroccan Darija content: reels and YouTub
 Open Claude Code on a Mac (Apple Silicon), then copy and paste the content of **[INSTALL-PROMPT.md](INSTALL-PROMPT.md)**.
 Claude downloads and installs everything from the original links (see [SOURCES.md](SOURCES.md)), then asks whether you want to start a video.
 
-This repo is **private**. Customers need a GitHub account that Oranuss Academy invited (Settings → Collaborators), and must sign in with `gh auth login`.
+This repo is **public**: anyone can install it, with no GitHub account, password or key.
 
-Manual install:
+Manual install (Mac):
 ```bash
-brew install gh && gh auth login --web
-gh api repos/meeehdy832/oranuss-academy-ai-editing/contents/install.sh -H "Accept: application/vnd.github.raw" > /tmp/oranuss-install.sh
+curl -fsSL https://raw.githubusercontent.com/meeehdy832/oranuss-academy-ai-editing/main/install.sh -o /tmp/oranuss-install.sh
 bash /tmp/oranuss-install.sh --tools --model
 ```
 
